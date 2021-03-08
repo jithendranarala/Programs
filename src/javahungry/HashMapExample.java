@@ -20,7 +20,7 @@ import java.util.*;
     hashmap.remove(3);
     System.out.println("Map keys and values after removal:");
     Set set = hashmap.entrySet();
-    Iterator it = set2.iterator();
+    Iterator it = set.iterator();
     while(it.hasNext()) {
         Map.Entry pair = (Map.Entry)it.next();
         System.out.print("Key is: "+pair.getKey() + " and Value is: ");
