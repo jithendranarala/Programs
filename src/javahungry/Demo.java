@@ -19,12 +19,12 @@ class RecFibDemo {
         int n=Integer.parseInt(br.readLine());
         Demo ob=new Demo();
         System.out.println("fibonacci series is as follows");
-        int res=0;
+        int res1=0;
         for(int i=1;i<=n;i++) {
-            res=ob.fib(i);
-            System.out.println(" "+res);
+            res1=ob.fib(i);
+            System.out.println(" "+res1);
         }
         System.out.println();
-        System.out.println(n+"th value of the series is "+res);
+        System.out.println(n+"th value of the series is "+res1);
     }
 }
