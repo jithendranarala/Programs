@@ -22,7 +22,7 @@ class RecFibDemo {
 
         int res=0;
         for(int i=1;i<=n;i++) {
-            res1=ob.fib(i);
+            res=ob.fib(i);
             System.out.println(" "+res);
         }
         System.out.println();
