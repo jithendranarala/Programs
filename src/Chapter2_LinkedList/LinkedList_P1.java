@@ -1,6 +1,6 @@
 package Chapter2_LinkedList;
 import java.util.*;
-public class Main{
+public class LinkedList_P1{
        public static void main(String[] args) {
         //create a LinkedList object and initialize it with Array elements converted to list
             LinkedList<Integer> intList = new LinkedList<>(Arrays.asList(10,20,30,40,50));
