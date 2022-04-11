@@ -2,9 +2,7 @@ package javahungry;
 import java.util.*;
 
  public class HashMapLoopExample {
-    public static void main(String args[]) {
-        
-
+    public static void main(String args[]) {      
     // Creating a HashMap of String keys and String values
     HashMap<String, String> hashmap = new HashMap<String, String>();
     hashmap.put("Key1", "Value1");
