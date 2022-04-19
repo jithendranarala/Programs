@@ -5,9 +5,7 @@ public class LowerToUpper {
 	public static void main(String[] args) {
 		String str = "jithendra";
 		System.out.println(str.toUpperCase());
-		lowertoUpper(str);
-		
-		
+		lowertoUpper(str);	
 	}
 
 	static void lowertoUpper(String str) {
