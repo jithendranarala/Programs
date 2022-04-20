@@ -15,10 +15,8 @@ public class FinalCountWords {
 			} else {
 				map.put(split[i], 1);
 			}
-		}
-		
+		}		
 		System.out.println(map);
-
 	}
 
 }
