@@ -9,11 +9,11 @@ public class SwapNumbers {
 		Scanner sc = new Scanner(System.in);
 		x= sc.nextInt();
 		y= sc.nextInt();
-		System.out.println("Before Swapping " + " X value : " + x + "and Y value : " + y);
+		System.out.println("Before Swapping " + " X value : " + x + " and Y value : " + y);
 		temp =x;
 		x=y;
 		y=temp;
-		System.out.println("After Swapping " + " X value : " + x + "and Y value : " + y);
+		System.out.println("After Swapping " + " X value : " + x + " and Y value : " + y);
 
 	}
 
