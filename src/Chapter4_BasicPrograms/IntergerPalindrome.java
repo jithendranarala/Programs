@@ -3,7 +3,19 @@ package Chapter4_BasicPrograms;
 public class IntergerPalindrome {
 
 	public static void main(String[] args) {
-		System.out.println("Polidrame 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");
+		int num = 949;
+		int palindrome = num;
+		int remainder;
+		int reverse=0;
+		
+		while (palindrome !=0) {
+			remainder = palindrome%10;
+			reverse = (reverse * 10) + remainder;
+			palindrome = palindrome/10;
+		}
+		System.out.println(num);
+		System.out.println(reverse);
+		
 	}
 
 }
